@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Tickets</h1>
+      <form class="ticket-calculator">
+        <div class="movie-name">
+          <h3>Movies!</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="name" checked>
+              Peter Pan
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="name">
+              Running with Ralph the Mouse
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="name">
+              Taking Chances
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="name">
+              It's a Disaster!
+            </label>
+          </div>
+        </div>
+
+        <div class="age-range">
+          <h3>Select your age range</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="5" checked>
+              Under 13
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="6">
+              13-17 years old
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="8">
+              18-61 years old
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="age" value="5">
+              62 or Over
+            </label>
+          </div>
+        </div>
+
+        <div class="movie-time">
+          <h3>Select your desired movie time</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="3" checked>
+              Matinee
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="8">
+              Evening
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="4">
+              Night
+            </label>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit" name="button">Get My Ticket!</button>
+      </form>
+
+      <div class="show-ticket">
+        <h3>Ticket</h3>
+        <ul class="ticketInfo">
+
+        </ul>
+      </div>
+
+    </div>
+  </body>
+</html>
